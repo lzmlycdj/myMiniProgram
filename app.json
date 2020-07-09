@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/about/about",
+    "pages/cate/cate"
+  ],
+  "sitemapLocation": "sitemap16.json",
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "homepage",
+      "iconPath": "assets/tabbar/home.png",
+      "selectedIconPath": "assets/tabbar/home_active.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "cate",
+      "iconPath": "assets/tabbar/home.png",
+      "selectedIconPath": "assets/tabbar/home_active.png"
+    }
+  ]
+  }
+}

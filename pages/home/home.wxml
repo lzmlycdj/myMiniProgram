@@ -1,0 +1,8 @@
+<!--pages/home/home.wxml-->
+<text class="redC">pages/home/home.wxml</text>
+<view>helloe {{name}}</view>
+
+<view wx:for="{{people}}">{{item.id}}---{{item.name}}</view>
+<button bindtap="clickadd">1111</button>
+<view>{{counter}}</view>
+<button>sfs</button>
